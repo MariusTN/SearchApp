@@ -1,13 +1,25 @@
+@font-face {
+  font-family: 'Punkin Pie Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Punkin Pie Regular'), url('./PunkinPie.woff') format('woff');
+  }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: linear-gradient(to top, rgba(7,27,82,1)0%, rgba(0,128,128,1)100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.searchboxx{
+  border-radius: 5px;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  max-width: auto;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
